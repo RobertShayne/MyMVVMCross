@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage x:TypeArguments="viewModels:FirstViewModel"
+                      xmlns="http://xamarin.com/schemas/2014/forms"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+                      xmlns:viewModels="clr-namespace:MyMVVMCross.Core.ViewModels;assembly=MyMVVMCross.Core"
+                      xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+                      x:Class="MyMVVMCross.Forms.MainView">
+    <StackLayout>
+        <Label
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+            mvx:Bi.nd="Text Hello"/>
+    </StackLayout>
+</views:MvxContentPage>
