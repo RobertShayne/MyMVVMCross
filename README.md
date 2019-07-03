@@ -1,3 +1,3 @@
 # MyMVVMCross
 
-smaple coe for https://robertshayne.wordpress.com/category/mvvmcross/
+smaple code for https://robertshayne.wordpress.com/category/mvvmcross/
